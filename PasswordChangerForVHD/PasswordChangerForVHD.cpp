@@ -42,7 +42,7 @@ static void PCFVHDParseOptions(
                 pOpt->ptLogin = optarg;
                 break;
             case _T('p'):
-                pOpt->ptLogin = optarg;
+                pOpt->ptPassword = optarg;
                 break;
 
             default:
