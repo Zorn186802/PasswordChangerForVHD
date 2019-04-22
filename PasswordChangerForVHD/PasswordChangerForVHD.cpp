@@ -79,5 +79,7 @@ INT _tmain(
 
     PCFVHDParseOptions(&gs_sOptions, argc, argv);
 
+    _tprintf_s(_T("%d"), OpenHive());
+
     return EXIT_SUCCESS;
 }

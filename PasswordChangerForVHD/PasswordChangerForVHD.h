@@ -5,6 +5,7 @@
 #include <tchar.h>
 #include <windows.h>
 #include "../Utils/getopt.h"
+#include "../Utils/LibRegistry/LibRegistry.h"
 
 /* --- DEFINES -------------------------------------------------------------- */
 
