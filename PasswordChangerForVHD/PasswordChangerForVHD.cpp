@@ -53,19 +53,16 @@ static void PCFVHDParseOptions(
     if (pOpt->ptDriveLetter == NULL)
     {
         PCFVHDUsage(argv[0], const_cast<PTCHAR> (_T(" drive letter is mandatory.\r\n")));
-        ExitProcess(EXIT_FAILURE);
     }
 
     if (pOpt->ptLogin == NULL)
     {
         PCFVHDUsage(argv[0], const_cast<PTCHAR> (_T(" login is mandatory.\r\n")));
-        ExitProcess(EXIT_FAILURE);
     }
 
     if (pOpt->ptPassword == NULL)
     {
         PCFVHDUsage(argv[0], const_cast<PTCHAR> (_T(" password is mandatory.\r\n")));
-        ExitProcess(EXIT_FAILURE);
     }
 }
 
